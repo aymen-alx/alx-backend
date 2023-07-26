@@ -13,6 +13,7 @@ class LFUCache(BaseCaching):
 
     def put(self, key, item):
         """
+        put Cache to the dictionary
         """
         if not (key is None or item is None):
             self.cache_data[key] = item
