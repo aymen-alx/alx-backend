@@ -12,7 +12,8 @@ class MRUCache(BaseCaching):
         self.used_key = []
 
     def put(self, key, item):
-        """assign to the dictionary self.cache_data the item value for
+        """
+        assign to the dictionary self.cache_data the item value for
             the key key.
         """
         if key is not None and item is not None:
