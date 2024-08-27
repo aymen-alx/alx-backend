@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-A Basic flask application
+Basic flask application
 """
 from typing import (
     Dict, Union
